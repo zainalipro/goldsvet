@@ -1,0 +1,6 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/eqymxelyaz/pakalone.online/goldsvet
+    - /bin/cp -R * $DEPLOYPATH
+    
